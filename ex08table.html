@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        테이블 태그
+        <table> = 코딩이 아니라 일반적으로 표를 만드는 상황(표를 만드는 공간을 할당해준다.)
+        <tr>태그</tr> = 표 내부에서 줄을 생성하는 태그 (table row 줄임말)
+        <th></th> = 행의 head역할을 하는 태그
+        <td></td>   
+    -->
+
+
+    <!-- 1. 표를 만들겠다고 선언하는 공간 <table> -->
+        <table border="1px solid black">
+            <!-- border라는 속성이 중요하다! ->>경계선을 나타낸다!!(선의 굵기, 종류, 색깔을 차례대로 적는다.) -->
+            <!-- caption = 표의 제목을 알려주는 태그이다. -->
+            
+            <caption>메뉴판</caption>
+
+            <!-- 2. 줄을 생성 table row <tr> -->
+                
+                    <!-- 3. 데이터를 적어준다. <th> & <td> 
+                        <th> = table head의 줄임말로 표의 제목을 뜻한다.(글자가 굵게 나오고 가운데 정렬이 된다.)
+                        <td> = table data의 줄임말로 표안의 데이터를 작성한다.
+                    -->
+                <tr bgcolor = "purple" height = "50px">
+                    <th>메뉴</th>
+                    <th>가격</th>
+                </tr>
+                <tr align="center">
+                    <!-- align = 정렬 -->
+                    <td>아이스 아메리카노</td>
+                    <td>3500원</td>
+                </tr>
+                <tr align="center">
+                    <td>아이스 카페라테</td>
+                    <td>4500원</td>
+                </tr>
+        </table>
+
+
+
+</body>
+</html>
